@@ -11,6 +11,9 @@ okta:
   oauth2:
     issuer: https://dev-20038330.okta.com/oauth2/default
     audience: api://default
+    client-id: 0oao5wwsf2gw46nTT5d7
+    client-secret: 0Qw-2TtKcp481ajuBxJyKxnMDcgyVoH6eE8cL6mgubRknrOTva4EfkusNMWluSb3
+    scopes: openid, email, profile, offline_access
 spring:
   zipkin:
     baseUrl: http://zipkin-svc:9411
